@@ -32,20 +32,11 @@ If you want to use the complete pipeline with the face extraction from the video
 - Training set (~150Mo)
 - Validation set (~50Mo)
 
-[Download link for the dataset](https://my.pcloud.com/publink/show?code=XZLGvd7ZI9LjgIy7iOLzXBG5RNJzGFQzhTRy)
+[Download link for the dataset](https://www.kaggle.com/datasets/uditsharma72/real-vs-fake-faces)
 
 ## Pretrained models
 
 You can find the pretrained weight in the `weights` folder. The `_DF` extension correspond to a model trained to classify deepfake-generated images and the `_F2F` to Face2Face-generated images.
 
-## Authors
 
-**Darius Afchar** - École des Ponts Paristech | École Normale Supérieure (France)
 
-**Vincent Nozick** - [Website](http://www-igm.univ-mlv.fr/~vnozick/?lang=fr)
-
-## References
-
-Afchar, D., Nozick, V., Yamagishi, J., & Echizen, I. (2018, September). [MesoNet: a Compact Facial Video Forgery Detection Network](https://arxiv.org/abs/1809.00888). In IEEE Workshop on Information Forensics and Security, WIFS 2018.
-
-This research was carried out while the authors stayed at the National Institute of Informatics, Japan.
